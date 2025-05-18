@@ -35,8 +35,8 @@ function displayQuotes(quotesArray) {
   });
 }
 
-searchInput.addEventListener("input", () => {
-    const searchTerm = searchInput.value.toLowerCase().trim(); // لازم تعرف searchTerm
+ searchInput.addEventListener("input", () => {
+    const searchTerm = searchInput.value.toLowerCase().trim();
     const searchWords = searchTerm.split(" ");
   
     const filtered = allQuotes.filter(q =>
